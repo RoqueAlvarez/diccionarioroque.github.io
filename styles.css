@@ -1,0 +1,38 @@
+body {
+    background-color: #2c2f36;
+    color: #f0f0f0;
+}
+
+h1, h2 {
+    color: #0033cc; 
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; 
+}
+
+label {
+    color: #c526e5;
+}
+
+textarea, input, select {
+    background-color: #444;
+    color: #f0f0f0;
+    border: 1px solid #666;
+}
+
+textarea:focus, input:focus, select:focus {
+    border-color: #0033cc;
+}
+
+.btn-primary {
+    background-color: #0033cc;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1462fe;
+}
+
+.resultado {
+    background-color: #333;
+    color: #f0f0f0;
+    padding: 10px;
+}
